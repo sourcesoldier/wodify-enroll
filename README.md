@@ -82,3 +82,20 @@ enroll_list.json
   }
 }
 ```
+### Running it on a Raspberry PI
+In order to run this on a ARM based platform, a.k.a. Raspberry PI you might need to install the the chromium browser
+
+```
+sudo apt install chromium-browser chromium-codecs-ffmpeg
+```
+
+Additonally you'll need to update the <wodify_enroll.js> around line 165 to include the following:
+
+````
+const browser = await puppeteer.launch({
+          headless: true,
+          executablePath: '/usr/bin/chromium-browser',
+          args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
+````
+Paying close attention to math the exceutablePath with the one on your system. 
