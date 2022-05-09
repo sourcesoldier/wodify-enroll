@@ -16,7 +16,7 @@ const WEEKDAYS = [
   'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'
 ];
 const WODIFY_CALENDAR_BANNER_NOTIFICATION_ID =
-    'AthleteTheme_wt6_block_RichWidgets_wt28_block_wtSanitizedHtml3';
+    'AthleteTheme_wt6_block_RichWidgets_wt29_block_wtSanitizedHtml3';
 const WODIFY_CALENDAR_CLASS_ALREADY_ENROLLED_CLASS = 'icon-ticket';
 const WODIFY_CALENDAR_CLASS_ENROLL_CLASS = 'icon-calendar';
 const WODIFY_CALENDAR_CLASS_FULL_SUBSTRING = 'waitlist';
